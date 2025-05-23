@@ -7,9 +7,8 @@ export default function Unicos() {
     const navigation = useNavigation();
 
     const abrirDetalhes = (id) => {
-        navigation.navigate('DetalhesReceitasUnicos', { id: id });
+        navigation.navigate('DetalhesReceitasPratosUnicos', { id: id });
     };
-
 
     const styles = StyleSheet.create({
         container: {
@@ -48,56 +47,56 @@ export default function Unicos() {
                 <TouchableOpacity style={styles.click} onPress={() => abrirDetalhes(1)}>
                     <CardReceita
                         imagem={require('../assets/pratos-unicos/Arroz de Peixe com Legumes.jpg')}
-                        nome_prato={'Coxinha de Frango'}
+                        nome_prato={'Arroz de Peixe com Legumes'}
                     />
                 </TouchableOpacity>
 
                 <TouchableOpacity style={styles.click} onPress={() => abrirDetalhes(2)}>
                     <CardReceita
                         imagem={require('../assets/pratos-unicos/Paella de Frutos do Mar.webp')}
-                        nome_prato={'Empada'}
+                        nome_prato={'Paella de Frutos do Mar'}
                     />
                 </TouchableOpacity>
 
                 <TouchableOpacity style={styles.click} onPress={() => abrirDetalhes(3)}>
                     <CardReceita
                         imagem={require('../assets/pratos-unicos/Bowl de Quinoa com Frango e Abacate.avif')}
-                        nome_prato={'Esfiha'}
+                        nome_prato={'Bowl de Quinoa com Frango e Abacate'}
                     />
                 </TouchableOpacity>
 
                 <TouchableOpacity style={styles.click} onPress={() => abrirDetalhes(4)}>
                     <CardReceita
                         imagem={require('../assets/pratos-unicos/Risoto de Cogumelos e Queijo Brie.webp')}
-                        nome_prato={'Pão de Queijo'}
+                        nome_prato={'Risoto de Cogumelos e Queijo Brie'}
                     />
                 </TouchableOpacity>
 
                 <TouchableOpacity style={styles.click} onPress={() => abrirDetalhes(5)}>
                     <CardReceita
                         imagem={require('../assets/pratos-unicos/Bowl Mediterrâneo com Grão-de-Bico.jpeg')}
-                        nome_prato={'Pastel'}
+                        nome_prato={'Bowl Mediterrâneo com Grão-de-Bico'}
                     />
                 </TouchableOpacity>
 
                 <TouchableOpacity style={styles.click} onPress={() => abrirDetalhes(6)}>
                     <CardReceita
                         imagem={require('../assets/pratos-unicos/Chili com Carne e Arroz.avif')}
-                        nome_prato={'Quibe'}
+                        nome_prato={'Chili com Carne e Arroz'}
                     />
                 </TouchableOpacity>
 
                 <TouchableOpacity style={styles.click} onPress={() => abrirDetalhes(7)}>
                     <CardReceita
                         imagem={require('../assets/pratos-unicos/Curry de Frango com Arroz Jasmin.webp')}
-                        nome_prato={'Enroladinho de Salsicha'}
+                        nome_prato={'Curry de Frango com Arroz Jasmin'}
                     />
                 </TouchableOpacity>
 
                 <TouchableOpacity style={styles.click} onPress={() => abrirDetalhes(8)}>
                     <CardReceita
                         imagem={require('../assets/pratos-unicos/Risoto de Cogumelos e Queijo Brie.webp')}
-                        nome_prato={'Risole'}
+                        nome_prato={'Risoto de Cogumelos e Queijo Brie'}
                     />
                 </TouchableOpacity>
             </ScrollView>

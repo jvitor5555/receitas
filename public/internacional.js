@@ -48,56 +48,56 @@ export default function Intercionais() {
                 <TouchableOpacity style={styles.click} onPress={() => abrirDetalhes(1)}>
                     <CardReceita
                         imagem={require('../assets/internacional/Bulgur com Legumes.webp')}
-                        nome_prato={'Coxinha de Frango'}
+                        nome_prato={'Bulgur com Legumes'}
                     />
                 </TouchableOpacity>
 
                 <TouchableOpacity style={styles.click} onPress={() => abrirDetalhes(2)}>
                     <CardReceita
                         imagem={require('../assets/internacional/croque-monsieur.jpeg')}
-                        nome_prato={'Empada'}
+                        nome_prato={'Croque Monsieur'}
                     />
                 </TouchableOpacity>
 
                 <TouchableOpacity style={styles.click} onPress={() => abrirDetalhes(3)}>
                     <CardReceita
                         imagem={require('../assets/internacional/espaguete-alho-oleo.jpg')}
-                        nome_prato={'Esfiha'}
+                        nome_prato={'Espaguete Alho e Óleo'}
                     />
                 </TouchableOpacity>
 
                 <TouchableOpacity style={styles.click} onPress={() => abrirDetalhes(4)}>
                     <CardReceita
                         imagem={require('../assets/internacional/Fish_and_chips_.jpg')}
-                        nome_prato={'Pão de Queijo'}
+                        nome_prato={'Fish and Chips'}
                     />
                 </TouchableOpacity>
 
                 <TouchableOpacity style={styles.click} onPress={() => abrirDetalhes(5)}>
                     <CardReceita
                         imagem={require('../assets/internacional/fritada-batata-abobrinha.webp')}
-                        nome_prato={'Pastel'}
+                        nome_prato={'Fritada de Batata e Abobrinha'}
                     />
                 </TouchableOpacity>
 
                 <TouchableOpacity style={styles.click} onPress={() => abrirDetalhes(6)}>
                     <CardReceita
                         imagem={require('../assets/internacional/receita-pad-thai.webp')}
-                        nome_prato={'Quibe'}
+                        nome_prato={'Pad Thai'}
                     />
                 </TouchableOpacity>
 
                 <TouchableOpacity style={styles.click} onPress={() => abrirDetalhes(7)}>
                     <CardReceita
                         imagem={require('../assets/internacional/shakshuka.webp')}
-                        nome_prato={'Enroladinho de Salsicha'}
+                        nome_prato={'Shakshuka'}
                     />
                 </TouchableOpacity>
 
                 <TouchableOpacity style={styles.click} onPress={() => abrirDetalhes(8)}>
                     <CardReceita
-                        imagem={require('../assets/internacional/tacos-carne-moida')}
-                        nome_prato={'Risole'}
+                        imagem={require('../assets/internacional/tacos-carne-moida.jpg')}
+                        nome_prato={'Tacos de Carne Moída'}
                     />
                 </TouchableOpacity>
             </ScrollView>

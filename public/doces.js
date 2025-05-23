@@ -10,7 +10,6 @@ export default function Doces() {
         navigation.navigate('DetalhesReceitasDoces', { id: id });
     };
 
-
     const styles = StyleSheet.create({
         container: {
             justifyContent: 'center',
@@ -42,62 +41,62 @@ export default function Doces() {
         <SafeAreaView style={{ flex: 1 }}>
             <ScrollView contentContainerStyle={styles.container}>
                 <View style={styles.texto_inicial}>
-                    <Text style={styles.texto}>Salgados</Text>
+                    <Text style={styles.texto}>Doces</Text>
                 </View>
 
                 <TouchableOpacity style={styles.click} onPress={() => abrirDetalhes(1)}>
                     <CardReceita
                         imagem={require('../assets/doces/beijinho.jpeg')}
-                        nome_prato={'Coxinha de Frango'}
+                        nome_prato={'Beijinho'}
                     />
                 </TouchableOpacity>
 
                 <TouchableOpacity style={styles.click} onPress={() => abrirDetalhes(2)}>
                     <CardReceita
                         imagem={require('../assets/doces/bolo-de-cenoura.jpeg')}
-                        nome_prato={'Empada'}
+                        nome_prato={'Bolo de Cenoura'}
                     />
                 </TouchableOpacity>
 
                 <TouchableOpacity style={styles.click} onPress={() => abrirDetalhes(3)}>
                     <CardReceita
                         imagem={require('../assets/doces/brigadeiro.jpg')}
-                        nome_prato={'Esfiha'}
+                        nome_prato={'Brigadeiro'}
                     />
                 </TouchableOpacity>
 
                 <TouchableOpacity style={styles.click} onPress={() => abrirDetalhes(4)}>
                     <CardReceita
                         imagem={require('../assets/doces/cheesecake.jpeg')}
-                        nome_prato={'Pão de Queijo'}
+                        nome_prato={'Cheesecake'}
                     />
                 </TouchableOpacity>
 
                 <TouchableOpacity style={styles.click} onPress={() => abrirDetalhes(5)}>
                     <CardReceita
                         imagem={require('../assets/doces/mousse-maracuja.jpeg')}
-                        nome_prato={'Pastel'}
+                        nome_prato={'Mousse de Maracujá'}
                     />
                 </TouchableOpacity>
 
                 <TouchableOpacity style={styles.click} onPress={() => abrirDetalhes(6)}>
                     <CardReceita
                         imagem={require('../assets/doces/pudim.jpeg')}
-                        nome_prato={'Quibe'}
+                        nome_prato={'Pudim'}
                     />
                 </TouchableOpacity>
 
                 <TouchableOpacity style={styles.click} onPress={() => abrirDetalhes(7)}>
                     <CardReceita
                         imagem={require('../assets/doces/Tiramisu.jpg')}
-                        nome_prato={'Enroladinho de Salsicha'}
+                        nome_prato={'Tiramisu'}
                     />
                 </TouchableOpacity>
 
                 <TouchableOpacity style={styles.click} onPress={() => abrirDetalhes(8)}>
                     <CardReceita
                         imagem={require('../assets/doces/torta-limao.jpeg')}
-                        nome_prato={'Risole'}
+                        nome_prato={'Torta de Limão'}
                     />
                 </TouchableOpacity>
             </ScrollView>

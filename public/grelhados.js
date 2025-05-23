@@ -42,62 +42,62 @@ export default function Grelhados() {
         <SafeAreaView style={{ flex: 1 }}>
             <ScrollView contentContainerStyle={styles.container}>
                 <View style={styles.texto_inicial}>
-                    <Text style={styles.texto}>Salgados</Text>
+                    <Text style={styles.texto}>Grelhados</Text>
                 </View>
 
                 <TouchableOpacity style={styles.click} onPress={() => abrirDetalhes(1)}>
                     <CardReceita
                         imagem={require('../assets/grelhados/costelinha.jpeg')}
-                        nome_prato={'Coxinha de Frango'}
+                        nome_prato={'Costelinha Grelhada'}
                     />
                 </TouchableOpacity>
 
                 <TouchableOpacity style={styles.click} onPress={() => abrirDetalhes(2)}>
                     <CardReceita
                         imagem={require('../assets/grelhados/espetinho-camarao.jpg')}
-                        nome_prato={'Empada'}
+                        nome_prato={'Espetinho de Camarão'}
                     />
                 </TouchableOpacity>
 
                 <TouchableOpacity style={styles.click} onPress={() => abrirDetalhes(3)}>
                     <CardReceita
                         imagem={require('../assets/grelhados/espetinho-vegetais.jpg')}
-                        nome_prato={'Esfiha'}
+                        nome_prato={'Espetinho de Vegetais'}
                     />
                 </TouchableOpacity>
 
                 <TouchableOpacity style={styles.click} onPress={() => abrirDetalhes(4)}>
                     <CardReceita
                         imagem={require('../assets/grelhados/espeto-cordeiro.jpeg')}
-                        nome_prato={'Pão de Queijo'}
+                        nome_prato={'Espeto de Cordeiro'}
                     />
                 </TouchableOpacity>
 
                 <TouchableOpacity style={styles.click} onPress={() => abrirDetalhes(5)}>
                     <CardReceita
                         imagem={require('../assets/grelhados/file-mignon.jpg')}
-                        nome_prato={'Pastel'}
+                        nome_prato={'Filé Mignon Grelhado'}
                     />
                 </TouchableOpacity>
 
                 <TouchableOpacity style={styles.click} onPress={() => abrirDetalhes(6)}>
                     <CardReceita
                         imagem={require('../assets/grelhados/peixe-grelhado.jpeg')}
-                        nome_prato={'Quibe'}
+                        nome_prato={'Peixe Grelhado'}
                     />
                 </TouchableOpacity>
 
                 <TouchableOpacity style={styles.click} onPress={() => abrirDetalhes(7)}>
                     <CardReceita
                         imagem={require('../assets/grelhados/picanha.jpeg')}
-                        nome_prato={'Enroladinho de Salsicha'}
+                        nome_prato={'Picanha na Brasa'}
                     />
                 </TouchableOpacity>
 
                 <TouchableOpacity style={styles.click} onPress={() => abrirDetalhes(8)}>
                     <CardReceita
                         imagem={require('../assets/grelhados/frango-grelhado.jpg')}
-                        nome_prato={'Risole'}
+                        nome_prato={'Frango Grelhado'}
                     />
                 </TouchableOpacity>
             </ScrollView>

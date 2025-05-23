@@ -45,44 +45,44 @@ export default function TiposReceitas() {
                     rota={'Salgados'}
                     imagem1={require('../assets/apresentacao/doces.jpg')}
                     nome_prato1={'Doces'}
-                    rota1={'doces'}
+                    rota1={'Doces'}
                 />
                 <CardTipoReceita
                     imagem={require('../assets/apresentacao/massas.jpg')}
                     nome_prato={'Massas'}
-                    rota={'massas'}
+                    rota={'Massas'}
                     imagem1={require('../assets/apresentacao/carnes.jpg')}
                     nome_prato1={'Carnes'}
-                    rota1={'carnes'}
+                    rota1={'Carnes'}
                 />
                 <CardTipoReceita
                     imagem={require('../assets/apresentacao/saladas.jpg')}
                     nome_prato={'Saladas'}
-                    rota={'saladas'}
+                    rota={'Saladas'}
                     imagem1={require('../assets/apresentacao/pratos_unicos.jpg')}
                     nome_prato1={'Únicas'}
-                    rota1={'pratos_unicos'}
+                    rota1={'Unicos'}
                 />
                 <CardTipoReceita
                     imagem={require('../assets/apresentacao/sopas_caldos.jpg')}
                     nome_prato={'Sopas'}
-                    rota={'sopas_caldos'}
+                    rota={'Sopas'}
                     imagem1={require('../assets/apresentacao/vegetarianas.jpg')}
                     nome_prato1={'Vegetarianas'}
-                    rota1={'vegetarianas'}
+                    rota1={'Vegetarianas'}
                 />
                 <CardTipoReceita
                     imagem={require('../assets/apresentacao/frutos_do_mar.jpg')}
                     nome_prato={'Frutos do Mar'}
-                    rota={'frutos_do_mar'}
+                    rota={'FrutosDoMar'}
                     imagem1={require('../assets/apresentacao/grelhados.jpg')}
                     nome_prato1={'Grelhados'}
-                    rota1={'grelhados'}
+                    rota1={'Grelhados'}
                 />
                 <CardTipoReceita
                     imagem={require('../assets/apresentacao/comida_internacional.jpg')}
                     nome_prato={'Internacionais'}
-                    rota={'comida_internacional'}
+                    rota={'Internacionais'}
                     imagem1={require('../assets/apresentacao/cafe_da_manha.jpg')}
                     nome_prato1={'Matinais'}
                     rota1={'CafeDaManha'}

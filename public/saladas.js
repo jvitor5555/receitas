@@ -10,7 +10,6 @@ export default function Saladas() {
         navigation.navigate('DetalhesReceitasSaladas', { id: id });
     };
 
-
     const styles = StyleSheet.create({
         container: {
             justifyContent: 'center',
@@ -42,62 +41,62 @@ export default function Saladas() {
         <SafeAreaView style={{ flex: 1 }}>
             <ScrollView contentContainerStyle={styles.container}>
                 <View style={styles.texto_inicial}>
-                    <Text style={styles.texto}>Salgados</Text>
+                    <Text style={styles.texto}>Saladas</Text>
                 </View>
 
                 <TouchableOpacity style={styles.click} onPress={() => abrirDetalhes(1)}>
                     <CardReceita
                         imagem={require('../assets/saladas/Salada Caprese.webp')}
-                        nome_prato={'Coxinha de Frango'}
+                        nome_prato={'Salada Caprese'}
                     />
                 </TouchableOpacity>
 
                 <TouchableOpacity style={styles.click} onPress={() => abrirDetalhes(2)}>
                     <CardReceita
                         imagem={require('../assets/saladas/Salada Caesar.jpeg')}
-                        nome_prato={'Empada'}
+                        nome_prato={'Salada Caesar'}
                     />
                 </TouchableOpacity>
 
                 <TouchableOpacity style={styles.click} onPress={() => abrirDetalhes(3)}>
                     <CardReceita
                         imagem={require('../assets/saladas/Salada de Quinoa com Abacate e Grão-de-Bico.jpg')}
-                        nome_prato={'Esfiha'}
+                        nome_prato={'Salada de Quinoa com Abacate e Grão-de-Bico'}
                     />
                 </TouchableOpacity>
 
                 <TouchableOpacity style={styles.click} onPress={() => abrirDetalhes(4)}>
                     <CardReceita
                         imagem={require('../assets/saladas/Salada Grega.webp')}
-                        nome_prato={'Pão de Queijo'}
+                        nome_prato={'Salada Grega'}
                     />
                 </TouchableOpacity>
 
                 <TouchableOpacity style={styles.click} onPress={() => abrirDetalhes(5)}>
                     <CardReceita
                         imagem={require('../assets/saladas/Salada de Frutas Tropicais.webp')}
-                        nome_prato={'Pastel'}
+                        nome_prato={'Salada de Frutas Tropicais'}
                     />
                 </TouchableOpacity>
 
                 <TouchableOpacity style={styles.click} onPress={() => abrirDetalhes(6)}>
                     <CardReceita
                         imagem={require('../assets/saladas/Salada de Batata com Maionese.webp')}
-                        nome_prato={'Quibe'}
+                        nome_prato={'Salada de Batata com Maionese'}
                     />
                 </TouchableOpacity>
 
                 <TouchableOpacity style={styles.click} onPress={() => abrirDetalhes(7)}>
                     <CardReceita
                         imagem={require('../assets/saladas/Salada de Atum e Feijão Verde.jpg')}
-                        nome_prato={'Enroladinho de Salsicha'}
+                        nome_prato={'Salada de Atum e Feijão Verde'}
                     />
                 </TouchableOpacity>
 
                 <TouchableOpacity style={styles.click} onPress={() => abrirDetalhes(8)}>
                     <CardReceita
                         imagem={require('../assets/saladas/Salada de Abóbora Assada com Espinafre e Nozes.jpeg')}
-                        nome_prato={'Risole'}
+                        nome_prato={'Salada de Abóbora Assada com Espinafre e Nozes'}
                     />
                 </TouchableOpacity>
             </ScrollView>

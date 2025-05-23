@@ -10,7 +10,6 @@ export default function Carnes() {
         navigation.navigate('DetalhesReceitasCarnes', { id: id });
     };
 
-
     const styles = StyleSheet.create({
         container: {
             justifyContent: 'center',
@@ -48,56 +47,56 @@ export default function Carnes() {
                 <TouchableOpacity style={styles.click} onPress={() => abrirDetalhes(1)}>
                     <CardReceita
                         imagem={require('../assets/carnes/alcatra-molho.jpg')}
-                        nome_prato={'Coxinha de Frango'}
+                        nome_prato={'Alcatra ao Molho'}
                     />
                 </TouchableOpacity>
 
                 <TouchableOpacity style={styles.click} onPress={() => abrirDetalhes(2)}>
                     <CardReceita
                         imagem={require('../assets/carnes/bife-rose.jpg')}
-                        nome_prato={'Empada'}
+                        nome_prato={'Bife à Rolê'}
                     />
                 </TouchableOpacity>
 
                 <TouchableOpacity style={styles.click} onPress={() => abrirDetalhes(3)}>
                     <CardReceita
                         imagem={require('../assets/carnes/cordeiro-assado.jpg')}
-                        nome_prato={'Esfiha'}
+                        nome_prato={'Cordeiro Assado'}
                     />
                 </TouchableOpacity>
 
                 <TouchableOpacity style={styles.click} onPress={() => abrirDetalhes(4)}>
                     <CardReceita
                         imagem={require('../assets/carnes/costela-porco.jpg')}
-                        nome_prato={'Pão de Queijo'}
+                        nome_prato={'Costela de Porco'}
                     />
                 </TouchableOpacity>
 
                 <TouchableOpacity style={styles.click} onPress={() => abrirDetalhes(5)}>
                     <CardReceita
                         imagem={require('../assets/carnes/escondidinho.jpg')}
-                        nome_prato={'Pastel'}
+                        nome_prato={'Escondidinho'}
                     />
                 </TouchableOpacity>
 
                 <TouchableOpacity style={styles.click} onPress={() => abrirDetalhes(6)}>
                     <CardReceita
-                        imagem={require('../assets/carnes/feijoada.jpg')}
-                        nome_prato={'Quibe'}
+                        imagem={require('../assets/carnes/feijoada.jpeg')}
+                        nome_prato={'Feijoada'}
                     />
                 </TouchableOpacity>
 
                 <TouchableOpacity style={styles.click} onPress={() => abrirDetalhes(7)}>
                     <CardReceita
                         imagem={require('../assets/carnes/frango-assado.jpg')}
-                        nome_prato={'Enroladinho de Salsicha'}
+                        nome_prato={'Frango Assado'}
                     />
                 </TouchableOpacity>
 
                 <TouchableOpacity style={styles.click} onPress={() => abrirDetalhes(8)}>
                     <CardReceita
                         imagem={require('../assets/carnes/hamburguer.jpg')}
-                        nome_prato={'Risole'}
+                        nome_prato={'Hambúrguer'}
                     />
                 </TouchableOpacity>
             </ScrollView>

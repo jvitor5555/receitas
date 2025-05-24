@@ -1,7 +1,32 @@
 import { View, TextInput, Text, StyleSheet, TouchableOpacity } from 'react-native';
+import React, { useState } from 'react';
 import { FontAwesome } from '@expo/vector-icons';
 
-export default function ComponenteTrocaSenha({textobotao }) {
+export default function ComponenteTrocaSenha({ textobotao }) {
+
+    const [input, setInput] = useState('');
+
+    const responder = () => {
+
+        const texto = input.trim().toLowerCase()
+
+        console.log(texto)
+
+        if (!texto) {
+
+            alert("Por favor, informe um email válido")
+        }
+
+        else if (texto === 'ricardo@gmail.com') {
+            alert("Um email contendo o link para a redefinição da senha foi enviado para ric****@gmail.com")
+        }
+
+        else {
+            alert("Não foi encontrado um usuário com esse email")
+        }
+    }
+
+    
 
     const styles = StyleSheet.create({
 
@@ -102,11 +127,11 @@ export default function ComponenteTrocaSenha({textobotao }) {
                 </View>
 
                 <View style={styles.container_texto_input}>
-                    <TextInput placeholder="Insira seu e-mail" style={styles.texto_input} />
+                    <TextInput placeholder="Insira seu e-mail" style={styles.texto_input} value={input} onChangeText={setInput}/>
                 </View>
 
                 <View style={styles.container_botao}>
-                    <TouchableOpacity style={styles.botao} onPress={() => alert('Favoritas')}>
+                    <TouchableOpacity style={styles.botao} onPress={responder}>
                         <Text style={styles.textoBotao}>{textobotao}</Text>
                     </TouchableOpacity>
                 </View>

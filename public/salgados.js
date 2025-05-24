@@ -7,7 +7,7 @@ export default function Salgados() {
     const navigation = useNavigation();
 
     const abrirDetalhes = (id) => {
-        navigation.navigate('DetalhesReceitaSalgadas', { id: id });
+        navigation.navigate('DetalhesReceitasSalgadas', { id: id });
     };
     
    
